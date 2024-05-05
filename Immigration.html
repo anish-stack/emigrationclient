@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Travisa - Visa & Emigration Website Template</title>
+    <title>IRCCICA -IMMIGRATION-FORM</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -40,16 +40,10 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <div id="loading-indicator"
-    style="display: none;"
-    class=" d-none loading-indicator bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
-        <span class="sr-only">Loading...</span>
+
     </div>
-</div>
     <!-- Spinner End -->
-<!-- Loading Indicator -->
-<div class="" >Loading...</div>
+    <!-- Loading Indicator -->
 
 
     <!-- Topbar Start -->
@@ -58,25 +52,12 @@
             <div class="col-lg-5 text-center text-lg-start mb-lg-0">
                 <div class="d-flex">
                     <a href="#" class="text-muted me-4"><i
-                            class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>
-                    <a href="#" class="text-muted me-0"><i
-                            class="fas fa-phone-alt text-secondary me-2"></i>+01234567890</a>
+                            class="fas fa-envelope text-secondary me-2"></i>info@ircc-portal.ca</a>
+                    <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+95827
+                        73880</a>
                 </div>
             </div>
-            <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i
-                            class="fab fa-twitter fw-normal text-secondary"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i
-                            class="fab fa-facebook-f fw-normal text-secondary"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i
-                            class="fab fa-linkedin-in fw-normal text-secondary"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i
-                            class="fab fa-instagram fw-normal text-secondary"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href=""><i
-                            class="fab fa-youtube fw-normal text-secondary"></i></a>
-                </div>
-            </div>
+
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a href="#" class="text-muted me-2"> Help</a><small> / </small>
@@ -153,7 +134,7 @@
                     </div>
                     <h1 class="display-6 mb-4 text-uppercase">Send Your EMIGRATATION</h1>
                     <!-- <p class="mb-3">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                    <form method="post" onsubmit="return false"  id="emigrationForm">
+                    <form method="post" onsubmit="return false" id="emigrationForm">
                         <div class="row g-4">
                             <div class="col-lg-12 d-flex  gap-2 col-xl-12">
                                 <div class="form-check">
@@ -178,53 +159,56 @@
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="surName" id="name"
+                                    <input required type="text" class="form-control" name="surName" id="name"
                                         placeholder="Your Name">
                                     <label for="name">Surname</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="GivenName"
+                                    <input required type="text" class="form-control" id="name" name="GivenName"
                                         placeholder="Your name">
                                     <label for="name">Given name</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="phone" class="form-control" name="Nationality" id="phone"
+                                    <input required type="phone" class="form-control" name="Nationality" id="phone"
                                         placeholder="Phone">
                                     <label for="phone">Nationality</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" name="DOB" id="DOB" placeholder="DOB">
+                                    <input required type="date" class="form-control" name="DOB" id="DOB"
+                                        placeholder="DOB">
                                     <label for="phone">DOB</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="Address" id="Address"
+                                    <input required type="text" class="form-control" name="Address" id="Address"
                                         placeholder="Address">
                                     <label for="Address">Address</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="State" id="State" placeholder="State">
+                                    <input required type="text" class="form-control" name="State" id="State"
+                                        placeholder="State">
                                     <label for="State">State</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="Pincode" placeholder="Zip/Pincode">
+                                    <input required type="text" class="form-control" name="Pincode"
+                                        placeholder="Zip/Pincode">
                                     <label for="Pincode">Zip/Pincode</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="PhoneNumber"
+                                    <input required type="text" class="form-control" name="PhoneNumber"
                                         placeholder="Phone Number">
                                     <label for="Phone">Phone Number</label>
                                 </div>
@@ -233,21 +217,21 @@
 
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="PassportNumber" id="Passport"
+                                    <input required type="text" class="form-control" name="PassportNumber" id="Passport"
                                         placeholder="Passport">
                                     <label for="Passport">Passport No.</label>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-xl-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="CountryOfPassport"
+                                    <input required type="text" class="form-control" name="CountryOfPassport"
                                         id="Country Of Passport" placeholder="Country Of Passport">
                                     <label for="Country Of Passport">Country Of Passport </label>
                                 </div>
                             </div>
                             <div class="col-12 d-md-flex gap-3">
                                 <div class="form-floating col-12 col-md-6">
-                                    <input type="date" name="ExpiryDate" class="form-control" id="subject"
+                                    <input required type="date" name="ExpiryDate" class="form-control" id="subject"
                                         placeholder="Subject">
                                     <label for="subject">Expiry</label>
                                 </div>
@@ -255,7 +239,7 @@
                                     <select class="form-select" name="TypeOfVisa" id="subject"
                                         aria-label="Type Of Visa">
                                         <option selected>Select Type Of Visa</option>
-                                        <option value="business">business Visa</option>
+                                        <option value="business">Business Visa</option>
                                         <option value="work">Work Visa</option>
                                         <option value="student">Student Visa</option>
                                         <!-- Add more options as needed -->
@@ -263,6 +247,17 @@
                                     <label for="subject">Type Of Visa</label>
                                 </div>
 
+                            </div>
+                            <div class="form-floating col-lg-12 col-xl-12  gap-2 mt my-4 ">
+                                <select class="form-select" name="VisaStatus" id="subject"
+                                    aria-label="Type Of Visa">
+                                    <option  selected> Visa Status</option>
+                                    <option value="Approved">Approved </option>
+                                    <option value="under-processing">Under Processing</option>
+                                    <option value="Rejected">Rejected</option>
+                                    <!-- Add more options as needed -->
+                                </select>
+                                <label for="subject">Visa Status</label>
                             </div>
                             <div class="col-12">
 
@@ -281,12 +276,12 @@
                                 </div>
                             </div>
                             <div class="form-floating col-md-12">
-                                <input type="date" class="form-control" name="validityDate" id="validityDate"
+                                <input required type="date" class="form-control" name="validityDate" id="validityDate"
                                     placeholder="validity Date">
                                 <label class="px-4" for="validity Date">validity Date</label>
                             </div>
                             <div class="form-floating col-md-12">
-                                <input type="text" class="form-control" name="CompanyName" id="companyName"
+                                <input required type="text" class="form-control" name="CompanyName" id="companyName"
                                     placeholder="companyName">
                                 <label class="px-4" for="companyName">Company Name</label>
                             </div>
@@ -294,104 +289,33 @@
                             <div class="col-lg-12 col-xl-6">
 
                                 <label for="passportImage" class="form-label">Passport Image</label>
-                                <input type="file" class="form-control" id="passportImage" name="passportImage" multiple
-                                    required>
+                                <input required type="file" class="form-control" id="passportImage" name="passportImage"
+                                    multiple>
                             </div>
                             <div class="col-lg-12 col-xl-6">
-                                <label for="panCardImage" class="form-label">PAN Card Image</label>
-                                <input type="file" class="form-control" id="panCardImage" name="panCardImage" multiple
-                                    required>
+                                <label for="panCardImage" class="form-label">Visa Approval Letter</label>
+                                <input required type="file" class="form-control" id="panCardImage" name="panCardImage"
+                                    multiple>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <label for="VisaAttached" class="form-label">Visa Attached Passport</label>
+                                <input required type="file" class="form-control" id="VisaAttached" name="VisaAttached" multiple>
                             </div>
 
-                            <div class="col-lg-12 col-xl-12">
+                            <div class="col-lg-12 col-xl-6">
                                 <label for="photo" class="form-label">Photo</label>
-                                <input type="file" class="form-control" id="photo" name="photo" multiple required>
+                                <input required type="file" class="form-control" id="photo" name="photo" multiple>
                             </div>
 
                             <div class="col-12">
-                                <button type="submit" class="btn btn-submit">Submit</button>
+                                <button type="submit" id="submitButton" class="btn btn-primary btn-outline-secondary btn-submit">Submit</button>
                             </div>
                         </div>
                     </form>
                 </div>
 
             </div>
-            <div class="office pt-5">
-                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="sub-style">
-                        <h5 class="sub-title text-primary px-3">Worlwide Offices</h5>
-                    </div>
-                    <h1 class="display-5 mb-4">Explore Our Office Worldwide</h1>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at
-                        atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime
-                        veniam necessitatibus saepe in ab? Repellat!</p>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="office-item p-4">
-                            <div class="office-img mb-4">
-                                <img src="img/office-2.jpg" class="img-fluid w-100 rounded" alt="">
-                            </div>
-                            <div class="office-content d-flex flex-column">
-                                <h4 class="mb-2">Australia</h4>
-                                <a href="#" class="text-secondary fs-5 mb-2">+123.456.7890</a>
-                                <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
-                                <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States
-                                    of America.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="office-item p-4">
-                            <div class="office-img mb-4">
-                                <img src="img/office-1.jpg" class="img-fluid w-100 rounded" alt="">
-                            </div>
-                            <div class="office-content d-flex flex-column">
-                                <h4 class="mb-2">Canada</h4>
-                                <a href="#" class="text-secondary fs-5 mb-2">(012) 0345 6789</a>
-                                <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
-                                <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States
-                                    of America.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="office-item p-4">
-                            <div class="office-img mb-4">
-                                <img src="img/office-3.jpg" class="img-fluid w-100 rounded" alt="">
-                            </div>
-                            <div class="office-content d-flex flex-column">
-                                <h4 class="mb-2">United Kingdom</h4>
-                                <a href="#" class="text-secondary fs-5 mb-2">01234.567.890</a>
-                                <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
-                                <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States
-                                    of America.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="office-item p-4">
-                            <div class="office-img mb-4">
-                                <img src="img/office-4.jpg" class="img-fluid w-100 rounded" alt="">
-                            </div>
-                            <div class="office-content d-flex flex-column">
-                                <h4 class="mb-2">India</h4>
-                                <a href="#" class="text-secondary fs-5 mb-2">+123.45.67890</a>
-                                <a href="#" class="text-muted fs-5 mb-2">travisa@example.com</a>
-                                <p class="mb-0">123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States
-                                    of America.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 pt-5 wow zoomIn" data-wow-delay="0.1s">
-                        <div class="rounded h-100">
-                            <iframe class="rounded w-100" style="height: 500px;"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"
-                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
     <!-- Contact End -->
@@ -405,8 +329,8 @@
                         <h4 class="text-secondary mb-4">Contact Info</h4>
                         <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
                         <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                        <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> 1-888-242-2100</a>
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> 1-888-242-2100</a>
                         <div class="d-flex align-items-center">
                             <i class="fas fa-share fa-2x text-secondary me-2"></i>
                             <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -433,22 +357,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-secondary mb-4">Our Services</h4>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Business</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Evaluation</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Migrate</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Study</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Counselling</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Work / Career</a>
-                    </div>
-                </div>
+
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item">
                         <h4 class="text-secondary mb-4">Newsletter</h4>
-                        <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
-                            dolor sit amet, consectetur adipiscing elit.</p>
+
                         <div class="position-relative mx-auto rounded-pill">
                             <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text"
                                 placeholder="Enter your email">
@@ -468,14 +381,13 @@
             <div class="row g-4 align-items-center">
                 <div class="col-md-6 text-center text-md-start mb-md-0">
                     <span class="text-white"><a href="#" class="border-bottom text-white"><i
-                                class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right
+                                class="fas fa-copyright text-light me-2"></i>IRCCICA</a>, All right
                         reserved.</span>
                 </div>
                 <div class="col-md-6 text-center text-md-end text-white">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+
+                    Designed By <a class="border-bottom text-white" href="https://digiindiasolutions.com/">DIGI INDIA
+                        SOLUTIONS</a>
                 </div>
             </div>
         </div>
@@ -504,35 +416,22 @@
             // Add an event listener to the form submission
             $('#emigrationForm').submit(function (event) {
                 event.preventDefault(); // Prevent the default form submission
-    
-                // Show loading indicator
-                $('.loading-indicator').show();
-    
+
+                // Change the text of the submit button to "Please Wait..."
+                $('#submitButton').text('Please Wait...').prop('disabled', true);
+
                 // Check if any field is empty
-                var isEmpty = false;
-                $(this).find('input, select').each(function () {
-                    if ($(this).val() === '') {
-                        isEmpty = true;
-                        return false; // Exit the loop early if an empty field is found
-                    }
-                });
-    
-                // If any field is empty, display an alert message and hide loading indicator
-                if (isEmpty) {
-                    alert('Please fill in all fields before submitting the form.');
-                    $('.loading-indicator').hide();
-                    return; // Exit the function early
-                }
-    
+
+
                 // Get the value of the checkbox
                 var issuedDateType = $('#issuedDateCheckbox').is(':checked');
-    
+
                 // Create a new FormData object
                 var formData = new FormData(this);
-    
+
                 // Append the value of the checkbox to the FormData object
                 formData.append('issuedDateType', issuedDateType);
-    
+
                 // Sending POST request using Ajax
                 $.ajax({
                     url: 'https://emigration.onrender.com/create-emigration',
@@ -542,23 +441,22 @@
                     processData: false,
                     success: function (response) {
                         console.log('Response:', response);
-                        // Hide loading indicator
-                        $('.loading-indicator').hide();
                         // Redirect to success page
-                        window.location.href = "https://emigrationclient.onrender.com/success"
+                        window.location.href = "https://digiindiasolutions.com/IRCCICA/success"
                     },
                     error: function (error) {
                         console.error('Error:', error.message);
-                        // Hide loading indicator
-                        $('.loading-indicator').hide();
                         // Redirect to error page
-                        window.location.href = "https://emigrationclient.onrender.com/error"
+                        window.location.href = "https://digiindiasolutions.com/IRCCICA/error"
+                    },
+                    complete: function () {
+                        // Revert the submit button text after AJAX request completes
+                        $('#submitButton').text('Submit').prop('disabled', false);
                     }
                 });
             });
         });
     </script>
-    
 </body>
 
 </html>

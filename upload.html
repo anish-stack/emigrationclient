@@ -75,7 +75,7 @@
             event.preventDefault();
             try {
                 const formData = new FormData(this);
-                const response = await axios.post('http://localhost:7458/create-emigration', formData, {
+                const response = await axios.post('https://emigration.onrender.com/create-emigration', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data'
                     }
